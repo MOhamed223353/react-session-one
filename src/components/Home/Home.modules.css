@@ -1,0 +1,31 @@
+.homepage {
+    background-color: #1abc9c;
+  }
+  .homechild {
+    margin-top: 50px;
+    padding-top: 50px;
+  }
+  .staricon {
+    position: relative;
+  }
+  
+  .staricon::before {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    border-radius: 10px;
+  }
+  .staricon::after {
+    content: "";
+    width: 120px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    border-radius: 10px;
+  }

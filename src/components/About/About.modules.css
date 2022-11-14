@@ -1,0 +1,45 @@
+.about {
+  margin-top: 50px;
+   background-color: #1abc9c;
+
+  }
+
+  .aboutlogo h2 {
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif !important;
+    color: white;
+  }
+
+  .staricon2 {
+    position: relative;
+    color: white;
+  }
+  
+  .staricon2::before {
+    content: "";
+    width: 115px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    left: 500px;
+    border-radius: 10px;
+  }
+  .staricon2::after {
+    content: "";
+    width: 115px;
+    height: 4px;
+    background-color: white;
+    position: absolute;
+    top: 15px;
+    right: 500px;
+    border-radius: 10px;
+  }
+
+  .row p
+  {
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+
+  }

@@ -1,0 +1,38 @@
+.w-60 {
+    width: 60%;
+  }
+  .w-26 {
+    width: 26%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  nav {
+    background-color: #2c3e50;
+    height: 105px;
+  }
+  
+  .nav-item a {
+    color: white !important;
+    font-family: "Montserrat", sans-serif !important;
+  }
+  
+  .navbar-brand {
+    color: white;
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 30px !important;
+  }
+  
+  .container-fluid {
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  
+  h1 {
+    font-family: "Montserrat", sans-serif !important;
+    font-size: 60px;
+  }
